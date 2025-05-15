@@ -13,6 +13,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Top Level File", "Top Level File", "{71CE07F9-B9A1-4D9E-87F7-D3A41440D3D6}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
+		LICENSE = LICENSE
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParts", "ThirdParts", "{0443639D-C0D1-4507-976A-2BCE97EBB2F8}"
