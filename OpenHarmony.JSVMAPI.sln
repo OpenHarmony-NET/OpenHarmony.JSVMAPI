@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHarmony.JSVMAPI", "OpenHarmony.JSVMAPI\OpenHarmony.JSVMAPI.csproj", "{8BB42E3D-AB23-4822-AB1F-2921BCEFB43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D354CF57-9E5F-443A-8EA1-55DCA4D1E8C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHarmony.JSVMAPI.SourceGenerators", "OpenHarmony.JSVMAPI.SourceGenerators\OpenHarmony.JSVMAPI.SourceGenerators\OpenHarmony.JSVMAPI.SourceGenerators.csproj", "{1E9CE417-385E-4296-918D-4F54D4315B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHarmony.JSVMAPI.SourceGenerators.Sample", "OpenHarmony.JSVMAPI.SourceGenerators\OpenHarmony.JSVMAPI.SourceGenerators.Sample\OpenHarmony.JSVMAPI.SourceGenerators.Sample.csproj", "{C87C038A-BF6D-42B4-9EAD-6932C56F5088}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHarmony.JSVMAPI.SourceGenerators.Tests", "OpenHarmony.JSVMAPI.SourceGenerators\OpenHarmony.JSVMAPI.SourceGenerators.Tests\OpenHarmony.JSVMAPI.SourceGenerators.Tests.csproj", "{94FC35A8-A3E4-4AC9-B980-375F130D4040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Top Level File", "Top Level File", "{71CE07F9-B9A1-4D9E-87F7-D3A41440D3D6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParts", "ThirdParts", "{0443639D-C0D1-4507-976A-2BCE97EBB2F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{1911AFB8-B554-41D7-AC05-9D3551EF6870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenHarmony.NDK.Bindings", "ThirdParts\OpenHarmony.NDK.Bindings\OpenHarmony.NDK.Bindings\OpenHarmony.NDK.Bindings.csproj", "{6FDD3F75-9371-404C-B862-EC16093B7C20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BB42E3D-AB23-4822-AB1F-2921BCEFB43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB42E3D-AB23-4822-AB1F-2921BCEFB43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB42E3D-AB23-4822-AB1F-2921BCEFB43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB42E3D-AB23-4822-AB1F-2921BCEFB43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9CE417-385E-4296-918D-4F54D4315B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9CE417-385E-4296-918D-4F54D4315B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9CE417-385E-4296-918D-4F54D4315B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9CE417-385E-4296-918D-4F54D4315B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87C038A-BF6D-42B4-9EAD-6932C56F5088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87C038A-BF6D-42B4-9EAD-6932C56F5088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87C038A-BF6D-42B4-9EAD-6932C56F5088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87C038A-BF6D-42B4-9EAD-6932C56F5088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FC35A8-A3E4-4AC9-B980-375F130D4040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FC35A8-A3E4-4AC9-B980-375F130D4040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FC35A8-A3E4-4AC9-B980-375F130D4040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FC35A8-A3E4-4AC9-B980-375F130D4040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDD3F75-9371-404C-B862-EC16093B7C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDD3F75-9371-404C-B862-EC16093B7C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDD3F75-9371-404C-B862-EC16093B7C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDD3F75-9371-404C-B862-EC16093B7C20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94FC35A8-A3E4-4AC9-B980-375F130D4040} = {D354CF57-9E5F-443A-8EA1-55DCA4D1E8C1}
+		{C87C038A-BF6D-42B4-9EAD-6932C56F5088} = {1911AFB8-B554-41D7-AC05-9D3551EF6870}
+		{6FDD3F75-9371-404C-B862-EC16093B7C20} = {0443639D-C0D1-4507-976A-2BCE97EBB2F8}
+	EndGlobalSection
+EndGlobal

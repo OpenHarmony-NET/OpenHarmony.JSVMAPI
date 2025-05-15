@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "DebugRoslynSourceGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "../OpenHarmony.JSVMAPI.SourceGenerators.Sample/OpenHarmony.JSVMAPI.SourceGenerators.Sample.csproj"
+    }
+  }
+}

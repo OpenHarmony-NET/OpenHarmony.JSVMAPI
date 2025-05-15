@@ -1,0 +1,6 @@
+[submodule "ThirdParts"]
+	path = ThirdParts
+	url = https://github.com/OpenHarmony-NET/OpenHarmony.NDK.Bindings.git
+[submodule "ThirdParts/OpenHarmony.NDK.Bindings"]
+	path = ThirdParts/OpenHarmony.NDK.Bindings
+	url = https://github.com/OpenHarmony-NET/OpenHarmony.NDK.Bindings.git
